@@ -2,7 +2,6 @@ import React, {useEffect} from 'react'
 import { StyleSheet, Image, View } from 'react-native'
 
 const ImageScreen = ({route}) => {
-    console.log('IMAGE SCREEN', route.params)
     return (
         <View>
             <Image 
